@@ -14,6 +14,19 @@ meant to be browsed manually — it exists to be fetched by the app's sync mecha
 - `books/<externalId>.json` — one file per book, containing its title, creators, subjects,
   bookshelves, and available download formats.
 
+## Source and attribution
+
+All book metadata in this repository comes from [Project Gutenberg](https://www.gutenberg.org)'s
+public catalog: the RDF catalog files and the daily update feed. Each book's page on Project
+Gutenberg is `https://www.gutenberg.org/ebooks/<externalId>`.
+
+"Project Gutenberg" is a registered trademark. FreeLibrary is free and non-commercial, and it is
+not affiliated with, sponsored by or endorsed by Project Gutenberg.
+
+Project Gutenberg follows United States copyright law, so a book that is in the public domain
+there may still be protected elsewhere. Readers outside the United States should check the rules
+of their own country before reading or sharing a book.
+
 ## License
 
 Licensed under [GPLv3](./LICENSE), matching the main FreeLibrary project.
